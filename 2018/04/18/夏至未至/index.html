@@ -36,6 +36,8 @@
     <script src="/libs/jquery/2.1.3/jquery.min.js"></script>
     
     
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
     
         <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
     
@@ -82,7 +84,7 @@
             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
@@ -101,10 +103,10 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Posts',
+            POSTS: 'Entradas',
             PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
+            CATEGORIES: 'Categorias',
+            TAGS: 'Etiquetas',
             UNTITLED: '(Untitled)',
         },
         ROOT_URL: '/',
@@ -135,7 +137,7 @@
                 <td>
                     
     <div class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Buscar" />
     </div>
 
                 </td>
@@ -155,16 +157,16 @@
             <h2 id="name">HtPsi</h2>
             <h3 id="title">Writer &amp; Singer</h3>
             <span id="location"><i class="fa fa-map-marker"></i>Beijig, China</span>
-            <a id="follow" target="_blank" href="http://htpsi.me">FOLLOW</a>
+            <a id="follow" target="_blank" href="http://htpsi.me">SEGUIR</a>
         </div>
         <div class="article-info profile-block">
             <div class="article-info-block">
                 10
-                <span>posts</span>
+                <span>Entradas</span>
             </div>
             <div class="article-info-block">
                 12
-                <span>tags</span>
+                <span>Etiquetas</span>
             </div>
         </div>
         
@@ -258,7 +260,7 @@
 
 </div>
 
-    <a data-url="https://www.htpsi.me/2018/04/18/夏至未至/" data-id="cjh1mrovi000dkkjoahz6v8y9" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://www.htpsi.me/2018/04/18/夏至未至/" data-id="cjh1s2qa9000djcjowe496bz2" class="article-share-link"><i class="fa fa-share"></i>Compartir</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -334,7 +336,7 @@
 <nav id="article-nav">
     
         <a href="/2018/05/02/有点炸/" id="article-nav-newer" class="article-nav-link-wrap">
-            <strong class="article-nav-caption">Newer</strong>
+            <strong class="article-nav-caption">Más nuevo</strong>
             <div class="article-nav-title">
                 
                     心态有点炸
@@ -344,7 +346,7 @@
     
     
         <a href="/2018/04/13/北京的雨/" id="article-nav-older" class="article-nav-link-wrap">
-            <strong class="article-nav-caption">Older</strong>
+            <strong class="article-nav-caption">Más viejo</strong>
             <div class="article-nav-title">下雨了</div>
         </a>
     
@@ -369,7 +371,7 @@
    
         
     <div class="widget-wrap">
-        <h3 class="widget-title">recent</h3>
+        <h3 class="widget-title">Recientes</h3>
         <div class="widget">
             <ul id="recent-post" class="">
                 
@@ -475,7 +477,7 @@
     
         
     <div class="widget-wrap">
-        <h3 class="widget-title">categories</h3>
+        <h3 class="widget-title">Categorias</h3>
         <div class="widget">
             <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/English/">English</a><span class="category-list-count">2</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/English/Essays/">Essays</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/English/Words-and-Sentences/">Words and Sentences</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/In-English/">In English</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/In-English/bulletin/">bulletin</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/中文/">中文</a><span class="category-list-count">5</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/中文/随笔/">随笔</a><span class="category-list-count">5</span></li></ul></li></ul>
         </div>
@@ -484,7 +486,7 @@
     
         
     <div class="widget-wrap">
-        <h3 class="widget-title">archives</h3>
+        <h3 class="widget-title">Archivos</h3>
         <div class="widget">
             <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">December 2017</a><span class="archive-list-count">1</span></li></ul>
         </div>
@@ -493,7 +495,7 @@
     
         
     <div class="widget-wrap">
-        <h3 class="widget-title">tag cloud</h3>
+        <h3 class="widget-title">Nube de etiquetas</h3>
         <div class="widget tagcloud">
             <a href="/tags/Chinese/" style="font-size: 10px;">Chinese</a> <a href="/tags/English/" style="font-size: 10px;">English</a> <a href="/tags/Life/" style="font-size: 10px;">Life</a> <a href="/tags/Ph-D/" style="font-size: 10px;">Ph.D</a> <a href="/tags/Quote/" style="font-size: 10px;">Quote</a> <a href="/tags/Welcome/" style="font-size: 10px;">Welcome</a> <a href="/tags/夏/" style="font-size: 10px;">夏</a> <a href="/tags/死/" style="font-size: 10px;">死</a> <a href="/tags/活着/" style="font-size: 10px;">活着</a> <a href="/tags/清华园/" style="font-size: 20px;">清华园</a> <a href="/tags/清青披萨/" style="font-size: 10px;">清青披萨</a> <a href="/tags/雨/" style="font-size: 15px;">雨</a>
         </div>
@@ -502,7 +504,7 @@
     
         
     <div class="widget-wrap widget-list">
-        <h3 class="widget-title">links</h3>
+        <h3 class="widget-title">Links</h3>
         <div class="widget">
             <ul>
                 
@@ -569,6 +571,16 @@
 
 
 
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
     
     
         <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
